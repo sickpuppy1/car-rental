@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="../../styles/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">Chaabi</div>
+    </header>
+    <div class="register-container">
+        <h1>Register</h1>
+        <form id="register-form">
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="tel" name="mobile" placeholder="Mobile Number" required>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+    <script type="module" src="../../scripts/common/validations.js"></script>
+    <script type="module" src="../../scripts/app.js"></script>
+    <script type="module" src="../../data/database-schema.js"></script>
+    <script type="module" src="../data/mockdata.js"></script>
+</body>
+</html>
